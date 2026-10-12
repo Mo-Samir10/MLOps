@@ -1,0 +1,22 @@
+artifact_path: file:C:/Career/SIC Big Data/Tasks/session37_MLOps/mlflow-task/artifacts/1/models/m-fd4aa79e3d4c4ba9b55fb90a05b67574/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.14
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.17.0
+model_id: m-fd4aa79e3d4c4ba9b55fb90a05b67574
+model_size_bytes: 894325
+model_uuid: m-fd4aa79e3d4c4ba9b55fb90a05b67574
+prompts: null
+run_id: db17b3452dbb419a9b97cd2ff33d69a0
+utc_time_created: '2026-10-12 12:15:31.314149'
